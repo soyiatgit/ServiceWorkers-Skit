@@ -1,9 +1,9 @@
-# Progressive Web Apps - Complete Guide
-This source code is part of Maximilian Schwarzmüller's "Progressive Web Apps - Complete Guide" course on udemy.com.
+Make sure you have node installed on your machine.
 
-# How to Use
-You need [Node.js](https://nodejs.org) installed on your machine. Simply download the installer from [nodejs.org](https://nodejs.org) and go through the installation steps.
+Run 'npm install' on the root of the project to install all the dependencies from the package.json
 
-Once Node.js is installed, open your command prompt or terminal and **navigate into this project folder**. There, run `npm install` to install all required dependencies.
+Once npm install runs successfully yu should have a folder named node_modules containing all the dependencies.
 
-Finally, run `npm start` to start the development server and visit [localhost:8080](http://localhost:8080) to see the running application.
+Now at the root of the project run: 'npm start'.
+
+This will start a local server on port 8080. Once the server is up, you can browse the app at: localhost:8080/index.html
